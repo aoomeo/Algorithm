@@ -21,15 +21,6 @@ public class LC02AddTwoNumbers {
         }
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
-
     public static ListNode addTwoNumbers(ListNode firstA, ListNode firstB) {
         int flag = 0;
         ListNode result = null;
